@@ -1,0 +1,29 @@
+{
+  "name": "folke-default-application",
+  "version": "1.0.0",
+  "description": "A default Folke application",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "typings install && tsc -p ."
+  },
+  "author": "Sidoine De Wispelaere",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/folkelib/folke-default-application.git"
+  },
+  "dependencies": {
+    "folke-core": "^1.0.8",
+    "folke-default-components": "^1.0.1",
+    "folke-default-menu": "^1.0.0",
+    "folke-identity": "^1.0.12",
+    "folke-ko-localization": "^1.0.4",
+    "folke-ko-validation": "^1.0.6",
+    "font-awesome": "^4.6.3",
+    "knockout": "^3.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  }
+}

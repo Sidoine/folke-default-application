@@ -1,0 +1,10 @@
+{
+  "name": "folke-default-application",
+  "dependencies": {
+    "knockout": "registry:npm/knockout#3.4.0+20160516171930"
+  },
+  "globalDependencies": {
+    "promise": "github:Sidoine/promise#22bb80d9f255f55cc06938d83c5b2d60e13338b3",
+    "whatwg-fetch": "registry:dt/whatwg-fetch#0.0.0+20160728142841"
+  }
+}
