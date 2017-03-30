@@ -7,7 +7,7 @@ import * as localization from 'folke-ko-localization';
 
 declare function require(name: string): string;
 
-export function register(services: identity.Services) {
+export function register<TKey>(services: identity.Services<TKey>) {
     localization.register({ identity: identity.fr });
     defaultMenu.register();
     identity.register(services, "Administrator");

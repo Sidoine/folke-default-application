@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var identity = require("folke-identity");
 var folke_core_1 = require("folke-core");
 var defaultComponents = require("folke-default-components");

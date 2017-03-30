@@ -13,17 +13,17 @@
     "url": "https://github.com/folkelib/folke-default-application.git"
   },
   "dependencies": {
-    "folke-core": "~1.1",
-    "folke-default-components": "~1.1",
-    "folke-default-menu": "~1.1",
-    "folke-identity": "~1.1",
-    "folke-ko-localization": "~1.1",
-    "folke-ko-validation": "~1.1",
+    "folke-core": "~1.1.0",
+    "folke-default-components": "~1.1.0",
+    "folke-default-menu": "~1.1.0",
+    "folke-identity": "~2.1.0",
+    "folke-ko-localization": "~1.1.1",
+    "folke-ko-validation": "~1.2.0",
     "font-awesome": "^4.6.3",
     "knockout": "~3.4.0",
     "@types/knockout": "~3.4.38"
   },
   "devDependencies": {
-    "typescript": "~2.1"
+    "typescript": "~2.2.2"
   }
 }
